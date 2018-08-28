@@ -8,7 +8,7 @@ Pacho returns results from Tumblr, Twitter, Pixiv, and Pinterest.
 
 These are social media platforms that rank aesthetic images yet are not easily found in Google Image Search.
 
-Pacho Premium: Also returns the keywords in Japanese for images inaccessible by English. ♥
+[Pacho Premium](https://www.patreon.com/paradiselost404): Also returns the keywords in Japanese for images inaccessible by English. ♥
 
 Usage:
 
