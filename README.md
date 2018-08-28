@@ -22,6 +22,7 @@ Usage:
 
 
 Premium:
+
 • Your search term will be automatically translated into Japanese. The sites, now with Japanese search, will open.
 
 • Pixiv will open in two tabs. Sometimes Japanese returns multiple results, so the 2nd tab will show any other Japanese translations (eg. 1. オレンジ & 2. えんしょく)
