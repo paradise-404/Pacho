@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synth>
+	<style id="basicStyle">
+		<opaque value="true"/>
+		<font name="Courier New" size="24" style="bold"/>
+		<state>
+			<color value="BLACK" type="BACKGROUND"/>
+			<color value="WHITE" type="FOREGROUND"/>
+		</state>
+	</style>
+	
+	<style id="buttonStyle">
+	    <!-- <insets top="4" left="2" bottom="4" right="2"/> -->
+		<state>
+			<imagePainter method="buttonBackground" path="/res/playbutton.png"
+			sourceInsets="10 10 10 10" paintCenter="true">
+			</imagePainter>
+		</state>
+	</style>
+	
+	<style id="windowStyle">
+		<!--  <insets top="3" left="5" bottom="3" right="5"/> -->
+		<opaque value="true"/> 
+		<state>
+			<imagePainter method="paintPanelBackground" path="/res/exteriortextbox.png"
+			sourceInsets="10 10 10 10" paintCenter="true">
+			</imagePainter>
+		</state>
+	</style>
+	
+	<style id="textBoxStyle">
+		<!-- <insets top="2" left="4" bottom="2" right="4"/> -->
+		<state>
+			<imagePainter method="paintTextFieldBackground" path="/res/interiortextbox.png"
+			sourceInsets="10 10 10 10" paintCenter="true">
+			</imagePainter>
+		</state>
+	</style>
+	
+	<bind style="basicStyle" type="region" key=".*"/>
+	<bind style="buttonStyle" type="region" key="Button"/>
+	<bind style="windowStyle" type="region" key="Panel"/>
+	<bind style="textBoxStyle" type="region" key="TextField"/>
+	
+</synth>
